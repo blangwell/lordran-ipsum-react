@@ -5,10 +5,16 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  color: rgb(165, 136, 97);
+  /* color: rgb(165, 136, 97); */
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   font-family: 'EB Garamond', serif;
+}
+.title {
+  color: rgb(165, 136, 97);
+}
+.subtitle {
+  color: white;
 }

@@ -6,8 +6,8 @@ function App() {
   return (
     <div className="App">
       <h1 className="title">Lordran Ipsum</h1>
+      <p className="subtitle">Dark Souls NPC Dialogue Lorem Ipsum</p>
       <TextBox length="sentence" />
-      <TextBox length="paragraph" />
     </div>
   );
 }
