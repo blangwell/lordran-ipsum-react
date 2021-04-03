@@ -1,24 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
 
+@font-face {
+  font-family: 'Dico';
+  src: local('Dico'), url(./fonts/Dico.ttf) format('truetype')
+}
+
 :root {
-  background-image: url(bonfirebackground.jpeg);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  display: flex;
-  justify-content: center;
-  width: 100%;
+  background-color: black;
+  width: 100vw;
 }
 .App {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'EB Garamond', serif;
+  font-family: 'Dico', sans-serif;
 }
 .title {
   color: rgb(165, 136, 97);
 }
+
 .subtitle {
   color: white;
+}
+#pixel-bonfire {
+  width: 200px;
+  height: auto;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
 }
