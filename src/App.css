@@ -8,21 +8,15 @@
 :root {
   background-color: black;
   width: 100vw;
+  font-family: 'Dico', sans-serif;
 }
 .App {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Dico', sans-serif;
-}
-.title {
-  color: rgb(165, 136, 97);
 }
 
-.subtitle {
-  color: white;
-}
 #pixel-bonfire {
   width: 200px;
   height: auto;

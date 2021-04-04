@@ -1,0 +1,13 @@
+.textbox {
+  color: white;
+  max-width: 60%;
+  line-height: 1.6;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.title {
+  color: rgb(165, 136, 97);
+}
+.subtitle {
+  color: rgb(165, 136, 97);
+  font-size: 1.3em;
+}
