@@ -49,7 +49,7 @@ const ipsumChunks = [
   'Thy Scent is very human, indeed. …But, not intolerable… ',
   'Without doubt, he will be swallowed by the Abyss, overcome by its utter blackness. ',
   'Though needst not hide thy wonder. I am a mushroom, after all. ',
-  'No-one will sing they praises, but yet thy greatness shall live on. ',
+  'No-one will sing thy praises, but yet thy greatness shall live on. ',
   'You come. I forge. We talk. You good friend. I very happy. ',
   'Talk, \'tis no good. No one home. Everyone gone. But you, friend. You talk, I no talk, but happy. ',
   'I will rest a while, then return to Firelink Shrine. ',
