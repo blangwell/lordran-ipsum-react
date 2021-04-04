@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/lordran-ipsum-react/static/css/main.28b9966d.chunk.css",
-    "main.js": "/lordran-ipsum-react/static/js/main.8c972276.chunk.js",
-    "main.js.map": "/lordran-ipsum-react/static/js/main.8c972276.chunk.js.map",
-    "runtime-main.js": "/lordran-ipsum-react/static/js/runtime-main.927ab0c5.js",
-    "runtime-main.js.map": "/lordran-ipsum-react/static/js/runtime-main.927ab0c5.js.map",
-    "static/js/2.83079498.chunk.js": "/lordran-ipsum-react/static/js/2.83079498.chunk.js",
-    "static/js/2.83079498.chunk.js.map": "/lordran-ipsum-react/static/js/2.83079498.chunk.js.map",
-    "static/js/3.aaa7d64e.chunk.js": "/lordran-ipsum-react/static/js/3.aaa7d64e.chunk.js",
-    "static/js/3.aaa7d64e.chunk.js.map": "/lordran-ipsum-react/static/js/3.aaa7d64e.chunk.js.map",
-    "index.html": "/lordran-ipsum-react/index.html",
-    "static/css/main.28b9966d.chunk.css.map": "/lordran-ipsum-react/static/css/main.28b9966d.chunk.css.map",
-    "static/js/2.83079498.chunk.js.LICENSE.txt": "/lordran-ipsum-react/static/js/2.83079498.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/lordran-ipsum-react/static/media/Dico.7acfb9b5.ttf",
-    "static/media/bonfire-pixel.eecb72fa.gif": "/lordran-ipsum-react/static/media/bonfire-pixel.eecb72fa.gif"
+    "main.css": "/www.lordranipsum.xyz/static/css/main.40425e9e.chunk.css",
+    "main.js": "/www.lordranipsum.xyz/static/js/main.8c972276.chunk.js",
+    "main.js.map": "/www.lordranipsum.xyz/static/js/main.8c972276.chunk.js.map",
+    "runtime-main.js": "/www.lordranipsum.xyz/static/js/runtime-main.9ecbcfc6.js",
+    "runtime-main.js.map": "/www.lordranipsum.xyz/static/js/runtime-main.9ecbcfc6.js.map",
+    "static/js/2.83079498.chunk.js": "/www.lordranipsum.xyz/static/js/2.83079498.chunk.js",
+    "static/js/2.83079498.chunk.js.map": "/www.lordranipsum.xyz/static/js/2.83079498.chunk.js.map",
+    "static/js/3.aaa7d64e.chunk.js": "/www.lordranipsum.xyz/static/js/3.aaa7d64e.chunk.js",
+    "static/js/3.aaa7d64e.chunk.js.map": "/www.lordranipsum.xyz/static/js/3.aaa7d64e.chunk.js.map",
+    "index.html": "/www.lordranipsum.xyz/index.html",
+    "static/css/main.40425e9e.chunk.css.map": "/www.lordranipsum.xyz/static/css/main.40425e9e.chunk.css.map",
+    "static/js/2.83079498.chunk.js.LICENSE.txt": "/www.lordranipsum.xyz/static/js/2.83079498.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/www.lordranipsum.xyz/static/media/Dico.7acfb9b5.ttf",
+    "static/media/bonfire-pixel.eecb72fa.gif": "/www.lordranipsum.xyz/static/media/bonfire-pixel.eecb72fa.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.927ab0c5.js",
+    "static/js/runtime-main.9ecbcfc6.js",
     "static/js/2.83079498.chunk.js",
-    "static/css/main.28b9966d.chunk.css",
+    "static/css/main.40425e9e.chunk.css",
     "static/js/main.8c972276.chunk.js"
   ]
 }
