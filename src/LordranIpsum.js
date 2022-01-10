@@ -40,7 +40,7 @@ export default function TextBox(props) {
   return (
     <div className="textbox">
     <h1 className="title">Lordran Ipsum</h1>
-      <h2 className="subtitle">Random Dark Souls NPC Dialogue Ipsum</h2>
+		<h2 className="subtitle">Random Dark Souls NPC Dialogue Ipsum</h2>
       {mapSnippet}
     </div>
   )

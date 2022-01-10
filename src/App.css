@@ -2,14 +2,54 @@
 
 @font-face {
   font-family: 'Dico';
-  src: local('Dico'), url(./fonts/Dico.ttf) format('truetype')
+  src: local('Dico'), url(./fonts/Dico.ttf) format('truetype');
 }
 
 :root {
   background-color: black;
+  height: 100%;
   width: 100vw;
   font-family: 'Dico', sans-serif;
 }
+
+.youCopiedModal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* cursor: pointer; */
+  /* visibility: hidden; */
+  /* opacity: 0; */
+  background-color: rgba(0,0,0,.3);
+  color: red;
+  font-size: 100px;
+}
+
+.ipsumContainer {
+  font-family: 'Dico', sans-serif;
+  line-height: 1.4em;
+  color: rgb(165, 136, 97);
+  max-width: 50%;
+}
+.copyButton {
+  margin: 20px;
+  padding: 10px 20px;
+  font-family: 'Dico', sans-serif;
+  background-color: rgb(67, 61, 58);
+  border-radius: 5px;
+  border: rgb(118, 91, 56);
+  color: rgb(206, 205, 205);
+}
+.copyButton:hover {
+  cursor: pointer;
+  background-color: rgb(75, 42, 12);
+  color: rgb(206, 205, 205);
+}
+
 .App {
   display: flex;
   flex-direction: column;
