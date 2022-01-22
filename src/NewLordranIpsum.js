@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import ipsumChunks from './ipsum';
-import { CSSTransition, Transition } from 'react-transition-group';
+// import { CSSTransition, Transition } from 'react-transition-group';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 // import { Modal } from 'react-bootstrap';
 
@@ -26,6 +26,13 @@ export default function NewLordranIpsum() {
 		shuffledChunks.forEach(chunk => ipsumString += chunk);
 		setIpsum(ipsumString);
 	}, []);
+
+	function handleCopy() {
+		setCopied(true);
+		setTimeout(() => {
+			setCopied(false);
+		}, 2000);
+	}
 	
 	return (
 		<>
@@ -33,25 +40,11 @@ export default function NewLordranIpsum() {
 				{ipsum}
 			</div>
 			<CopyToClipboard text={ipsum.slice(100)}
-				onCopy={() => setCopied(true)}>
+				onCopy={() => handleCopy()}>
 				<button className="copyButton">Copy</button>
 			</CopyToClipboard>
 			{/* setting copied back to false will hide the modal */}
 			{ copied ? <div className="youCopiedModal" onClick={() => setCopied(false)}>YOU COPIED</div> : null }
-			{/* <Transition
-				nodeRef={modalRef}
-				
-			>
-
-			</Transition> */}
-			{/* <CSSTransition 
-				nodeRef={modalRef} 
-				timeout={300} 
-				in={false}
-				classNames="youCopiedTransition"
-			>
-				<div className="youCopiedModal" ref={modalRef}>YOU COPIED</div>
-			</CSSTransition> */}
 		</>
 	)
 }
