@@ -16,7 +16,7 @@
     "react-transition-group": "^4.4.2",
     "web-vitals": "^1.1.1"
   },
-  "homepage": "https://lordranipsum.xyz",
+  "homepage": "https://blangwell.github.io/lordran-ipsum-react/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
